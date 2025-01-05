@@ -2,6 +2,7 @@ import { BookOpen, Github, Linkedin, Mail } from 'lucide-react';
 import TypewriterAnimation from './animations/TypewriterAnimation';
 import FadeInAnimation from './animations/FadeInAnimation';
 import PulseAnimation from './animations/PulseAnimation';
+import heroImage from '../assests/hero.jpg';
 
 export default function Hero() {
   const scrollToAbout = () => {
@@ -80,7 +81,7 @@ export default function Hero() {
             <div className="flex-shrink-0">
               <div className="relative w-64 h-64">
                 <img
-                  src="/assests/hero.jpg"
+                  src={heroImage}
                   alt="Narendra Singh"
                   className="absolute inset-0 w-full h-full object-cover rounded-full shadow-2xl"
                 />
