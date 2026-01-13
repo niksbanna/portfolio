@@ -2,12 +2,11 @@ import type { TerminalCommand, TerminalOutput } from '../../types/terminal';
 import { projects } from '../../data/projects';
 
 const ASCII_ART = `
- _   _ _ _        _
-| \\ | (_) |      | |
-|  \\| |_| | _____| |__   __ _ _ __  _ __   __ _
-| . \` | | |/ / __| '_ \\ / _\` | '_ \\| '_ \\ / _\` |
-| |\\  | |   <\\__ \\ | | | (_| | | | | | | | (_| |
-|_| \\_|_|_|\\_\\___/_| |_|\\__,_|_| |_|_| |_|\\__,_|
+ _   _                           _
+| \\ | | __ _ _ __ ___ _ __   __| |_ __ __ _
+|  \\| |/ _\` | '__/ _ \\ '_ \\ / _\` | '__/ _\` |
+| |\\  | (_| | | |  __/ | | | (_| | | | (_| |
+|_| \\_|\\__,_|_|  \\___|_| |_|\\__,_|_|  \\__,_|
 
 Full Stack Developer | Node.js | Go | React
 Type 'help' to see available commands
