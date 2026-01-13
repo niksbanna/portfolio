@@ -5,7 +5,7 @@ const skills = {
   backend: ['Node.js', 'Go', 'NestJS', 'Express.js', 'gRPC', 'REST APIs'],
   database: ['MongoDB', 'MySQL', 'PostgreSQL', 'Redis'],
   devops: ['Docker', 'Kubernetes', 'Git', 'CI/CD', 'Azure', 'AWS'],
-  other: ['Microservices', 'Kafka', 'RabbitMQ', 'WebSockets', 'Serverless Architecture']
+  other: ['Microservices', 'Kafka', 'RabbitMQ', 'WebSockets', 'Serverless Architecture'],
 };
 
 export default function Skills() {
@@ -13,7 +13,9 @@ export default function Skills() {
     <section id="skills" className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">Skills & Technologies</h2>
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
+            Skills & Technologies
+          </h2>
         </div>
         <div className="mt-16">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -29,7 +31,15 @@ export default function Skills() {
   );
 }
 
-function SkillCategory({ title, icon, skills }: { title: string; icon: React.ReactNode; skills: string[] }) {
+function SkillCategory({
+  title,
+  icon,
+  skills,
+}: {
+  title: string;
+  icon: React.ReactNode;
+  skills: string[];
+}) {
   return (
     <div className="bg-white dark:bg-gray-800 shadow rounded-lg p-6">
       <div className="flex items-center">

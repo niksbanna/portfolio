@@ -2,7 +2,7 @@ import { BookOpen, Github, Linkedin, Mail } from 'lucide-react';
 import TypewriterAnimation from './animations/TypewriterAnimation';
 import FadeInAnimation from './animations/FadeInAnimation';
 import PulseAnimation from './animations/PulseAnimation';
-import heroImage from '../assests/hero.jpg';
+import heroImage from '../assets/hero.jpg';
 
 export default function Hero() {
   const scrollToAbout = () => {
