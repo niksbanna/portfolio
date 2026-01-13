@@ -7,7 +7,9 @@ const navigation = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
-  { name: 'Resume', href: '#resume' },
+  { name: 'GitHub', href: '#github' },
+  { name: 'Blog', href: '#blog' },
+  { name: 'Architecture', href: '#microservices' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -57,7 +59,7 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="text-xl font-bold text-gray-900 dark:text-white">Narendra Singh Chandrawat</span>
+            <span className="text-xl font-bold text-gray-900 dark:text-white">Narendra Singh</span>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -101,7 +103,7 @@ export default function Header() {
         <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white dark:bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="text-xl font-bold">Narendra Singh Chandrawat</span>
+              <span className="text-xl font-bold">Narendra Singh</span>
             </a>
             <button
               type="button"

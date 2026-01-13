@@ -1,4 +1,4 @@
-# Narendra Singh Chandrawat - Portfolio
+# Narendra Singh - Portfolio
 
 This is my personal portfolio website built with React, TypeScript, and Tailwind CSS. It showcases my skills, projects, and experience as a Full Stack Developer.
 
@@ -30,5 +30,6 @@ This is my personal portfolio website built with React, TypeScript, and Tailwind
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/niksbanna/portfolio.git
    cd portfolio
+   ```
