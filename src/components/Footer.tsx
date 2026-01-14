@@ -1,11 +1,10 @@
-import { Home, User, Code, Briefcase, FileText, Mail } from 'lucide-react';
+import { Home, User, Code, Briefcase, Mail } from 'lucide-react';
 
 const navigation = [
   { name: 'Home', href: '#home', icon: Home },
   { name: 'About', href: '#about', icon: User },
   { name: 'Skills', href: '#skills', icon: Code },
   { name: 'Projects', href: '#projects', icon: Briefcase },
-  { name: 'Resume', href: '#resume', icon: FileText },
   { name: 'Contact', href: '#contact', icon: Mail },
 ];
 
