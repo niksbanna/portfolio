@@ -1,4 +1,5 @@
 import { Suspense, lazy } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -56,6 +57,7 @@ function App() {
       <Footer />
       <ScrollToTop />
       <Terminal />
+      <Analytics />
     </div>
   );
 }

@@ -2,30 +2,30 @@ import { Project } from '../types';
 
 export const projects: Project[] = [
   {
-    title: 'Solarbees',
+    title: 'Medidiet App',
     description:
-      'Real-time analytical platform for renewable energy sector, enabling instant data processing and interactive visualization for energy metrics. Reduced data analysis time by 50%.',
+      'AI-powered nutrition management app for medical conditions. Personalized meal plans via Gemini API, health tracking, and premium UI. Built with React Native & Expo.',
     image:
-      'https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com/niksbanna/solarbees',
-    technologies: ['Nest.js', 'React', 'MongoDB', 'Docker'],
+      'https://plus.unsplash.com/premium_photo-1742908206163-845c47709dc0?q=80&w=2340&auto=format&fit=crop&w=800&q=80',
+    githubUrl: 'https://github.com/niksbanna/medidiet-app',
+    technologies: ['ReactJS', 'TypeScript', 'Gemini API', 'Zod', 'React Native', 'Expo', 'Docker', 'TailwindCSS'],
   },
   {
-    title: 'Workflow Optimization System',
+    title: 'Wellness',
     description:
-      'Engineered automation solutions to replace repetitive manual tasks, achieving a 40% reduction in manual labor and a 25% decrease in error rates.',
+      'A modern telehealth platform for medical weight loss programs, featuring a public marketing site and authenticated member portal.',
     image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com/niksbanna/workflow-optimizer',
-    technologies: ['Go', 'Temporal', 'MySQL', 'Docker', 'Kubernetes'],
+      'https://images.unsplash.com/photo-1461468611824-46457c0e11fd?q=80&w=2340&auto=format&fit=crop&w=800&q=80',
+    githubUrl: 'https://github.com/niksbanna/wellness', 
+    technologies: ['Next.js', 'React', 'TypeScript', 'MongoDB', 'Docker', 'TailwindCSS', 'Stripe', 'Auth0'],
   },
   {
-    title: 'Traceability Software',
+    title: 'Healer',
     description:
-      'Developed a station-wise traceability system for TS-Tech Sun Raj Ltd using Node.js, Sqlserver, Socket.IO and Docker to enhance production tracking accuracy.',
+      'Healer packages the MedGemma 4B instruction-tuned model behind a FastAPI service so you can answer colorectal cancer screening questions from histopathology imagery. ',
     image:
-      'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com/niksbanna/traceability-system',
-    technologies: ['Nest.js', 'SQL Server', 'Socket.IO', 'Docker'],
+      'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=2832&auto=format&fit=crop&w=800&q=80',
+    githubUrl: 'https://github.com/niksbanna/healer',
+    technologies: ['FastAPI', 'Python', 'Google Cloud Build', 'MedGemma', 'Docker', 'React', 'TypeScript'],
   },
 ];
