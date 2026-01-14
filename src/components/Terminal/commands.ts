@@ -44,7 +44,7 @@ export const commands: Record<string, TerminalCommand> = {
     name: 'about',
     description: 'Learn about me',
     execute: () => [
-      { type: 'success', content: '=== About Nikhil Banna ===' },
+      { type: 'success', content: '=== About Narendra Singh ===' },
       { type: 'text', content: '' },
       {
         type: 'text',
@@ -169,7 +169,7 @@ export const commands: Record<string, TerminalCommand> = {
       { type: 'success', content: '=== Social Links ===' },
       { type: 'text', content: '' },
       { type: 'text', content: 'GitHub:   https://github.com/niksbanna' },
-      { type: 'text', content: 'LinkedIn: https://www.linkedin.com/in/nikhil-banna/' },
+      { type: 'text', content: 'LinkedIn: https://www.linkedin.com/in/narendra-singh-chandrawat/' },
       { type: 'text', content: 'Medium:   https://medium.com/@bannanicky0' },
     ],
   },
